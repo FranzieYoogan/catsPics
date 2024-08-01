@@ -27,9 +27,8 @@ export class HomeComponent {
         this.data = config
   
       });
-      
-      localStorage.setItem('exist','exist')
 
+     
     setTimeout(() => {
 
       cat.style.transition = "0.5s"
@@ -49,5 +48,20 @@ export class HomeComponent {
     }, 2800);
 
   }
+
+  breeds() {
+
+    window.location.href = "/breeds"
+        
+  }
+
+  search() {
+    
+ window.location.href = "/search"
+
+  }
+
+
+  
 
 }

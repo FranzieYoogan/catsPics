@@ -1,0 +1,38 @@
+.formStyle {
+
+    margin-top: 1em;
+
+}
+
+.buttonStyle {
+
+    background-color: rgb(16, 180, 230);
+    border: 1px solid black;
+}
+
+.buttonStyle:hover, .buttonStyle:active, .buttonStyle:focus {
+
+    background-color: rgb(13, 142, 182);
+    box-shadow: 0px 0px 4px 3px rgb(16, 180, 230);
+
+}
+
+input:hover, input:active, input:focus {
+
+    border: 1px solid rgb(16, 180, 230);
+}
+
+.breedStyle {
+
+    width: 300px;
+    margin-top: 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.containerBreedStyle {
+
+    display: flex;
+    justify-content: center;
+
+}

@@ -12,6 +12,35 @@
     border: 1px solid black;
 }
 
+.buttonStyle2 {
+
+    background-color: rgb(16, 180, 230);
+    border: 1px solid black;
+    color: white;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .buttonStyle2 {
+      bottom: 40%;
+    }
+
+    .buttonStyle {
+
+        position: relative;
+        bottom: 10px;
+
+    }
+    
+  }
+
+.buttonStyle2:hover, .buttonStyle2:active, .buttonStyle2:focus {
+
+    background-color: rgb(13, 142, 182);
+    box-shadow: 0px 0px 4px 3px rgb(16, 180, 230);
+
+}
+
 .buttonStyle:hover, .buttonStyle:active, .buttonStyle:focus {
 
     background-color: rgb(13, 142, 182);
@@ -30,6 +59,13 @@
     opacity: 0;
 }
 
+
+
+.containerItems {
+
+ 
+}
+
 @media only screen and (max-width: 600px) {
     .containerCats {
       gap: 1em;
@@ -42,3 +78,18 @@
     border: 2px solid black;
     margin-bottom: 0.5em;
 }
+
+.titleStyle {
+
+    font-size: 20px;
+    z-index: 60;
+   
+}
+
+.inputStyle {
+
+    position: relative;
+    bottom: 3px;
+
+}
+
